@@ -1,0 +1,21 @@
+import $ from 'jquery';
+import _ from 'lodash';
+
+// Counter to track button clicks
+let count = 0;
+
+// Function to update counter
+function updateCounter() {
+  count += 1;
+  .text();
+}
+
+// Add elements to the page
+.append('<p>ALX Dashboard</p>');
+.append('<p>Dashboard data for the students</p>');
+.append('<button>Click here to get started</button>');
+.append('<p id=count></p>');
+.append('<p>Copyright - ALX</p>');
+
+// Attach debounced click handler to button
+.on('click', _.debounce(updateCounter, 300));

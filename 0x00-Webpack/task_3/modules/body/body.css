@@ -1,0 +1,13 @@
+.container {
+  padding: 20px;
+}
+
+#count {
+  display: inline;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+button {
+  margin-right: 10px;
+}
